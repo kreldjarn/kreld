@@ -1,0 +1,25 @@
+body {
+  color: #FFF;
+  font-family: Helvetica;
+  background: #333 url(../img/Agony_Level5_Horizon.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  margin-top: 150px;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #FFF;
+}
+
+h3 {
+  color: #000;
+  font-size: 100px;
+  text-shadow: -2px 0 #FFF, 0 2px #FFF, 2px 0 #FFF, 0 -2px #FFF;
+  text-align: center;
+  margin-top: 175px;
+}
