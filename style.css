@@ -17,6 +17,8 @@ div.container {
 	color: #FFF;
 	text-align: center;
 	margin-top: 1em;
+  position: relative;
+  height: 100%;
 }
 
 div.container h1 {
@@ -66,16 +68,16 @@ div.circle i.icon-down {
 
 div.circle:hover i.icon-down {
 	line-height: 1.5em;
-	color: #00FFC0;
+	color: #BADEE8;
 }
 
 div.circle:hover {
-	border-color: #00FFC0;
+	border-color: #BADEE8;
 	cursor: pointer;
 }
 
 div.social-container {
-	margin-top: 30px;
+	margin-top: -70px;
 	color: #FFF;
 	font-size: 46px;
 }
@@ -89,11 +91,15 @@ div.social-container a {
 }
 
 div.social-container a:hover {
-	color: #00FFC0;
+	color: #BADEE8;
 }
 
 div.wrapper {
 	margin-left: -15px;
+}
+
+.sucre {
+  transform: translateY(330px);
 }
 
 video {
@@ -116,7 +122,7 @@ video#bgvid {
 }
 
 /*
-	Disable video on mobile 
+	Disable video on mobile
 		=> Autoplay not possible on iOS
 */
 @media screen and (max-device-width: 800px) {
